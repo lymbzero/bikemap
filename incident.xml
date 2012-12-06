@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<IncidentList>
+
+<Incident>
+<Number>100136438</Number>
+<Date>12/31/201</Date>
+<Location>6TH ST / OCEAN PARK BLVD</Location>
+<Lat>34.005132</Lat>
+<Lon>-118.4793218</Lon>
+<Violation>21200.5VC</Violation>
+<CollisionType>Driving Under the Influence</CollisionType>
+<Vehicles>1</Vehicles>
+<PeopleHurt>1</PeopleHurt>
+</Incident>
+
+<Incident>
+<Number>100132183</Number>
+<Date>12/17/2010</Date>
+<Location>7TH ST / ARIZONA AVE</Location>
+<Lat>34.0200606</Lat>
+<Lon>-118.4938835</Lon>
+<Violation>21801 (A)VC</Violation>
+<CollisionType>Right of Way Violation</CollisionType>
+<Vehicles>1</Vehicles>
+<PeopleHurt>1</PeopleHurt>
+</Incident>
+
+
+</IncidentList>

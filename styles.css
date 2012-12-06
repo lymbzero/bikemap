@@ -1,0 +1,189 @@
+html { 
+	height:100%; position: relative; background-image: url("images/bikeside-bg.png"); 
+	line-height:1.5; font-style: normal; font-family:sans-serif; font-size: smaller; }
+			
+/*-------------------------------------------------------------------------------->	*/
+/*  Mihai's section 																																*/
+/*-------------------------------------------------------------------------------->	*/
+form { background: #4685aa; font-size: 12px; color: #F0F5DA; padding: 12px; }
+
+input, textarea 
+{ font-size: 11px; padding: 1px; margin-top: 1px; margin-left: 20px;
+  border: solid 2px #1D4166; background-color: #CEDDE0; }
+   
+h4 {font-size: 17px; font-weight: 500; 
+		padding-bottom: 2px; margin-bottom: 2px; margin-top: 12px; display:block; }
+
+input[type="text"]:focus, textarea:focus {
+    background-color: #E6EBDA;
+    border: solid 2px #9ED604;
+}
+
+.btn_submit {
+  font-size: 14px; background-color: #B32B78;
+  color: white; cursor: pointer;
+  margin: 6px 6px 6px 20px; padding: 8px; 
+	border: none;
+}
+
+#amount { color: #2D96CF; font-size: 110%; }
+#watermark {
+  position:absolute; top: 10px; margin-left:10px;  border: 0px; 
+  width: 140px; height: 54px; text-align: left; 
+	background: url(images/bikemap-logo.png) no-repeat; z-index:3; }
+
+#watermark-sm { 
+	position:absolute; top: 2px; margin-left:2px;  border: 0px; 
+	width: 80px; height: 30px;
+	background: url(images/bikemap-logo-sm.png) no-repeat; z-index:3; }
+
+#menubar {
+	position: relative;	left:0; border: 0px; padding: 8px; background-color: #000000; 
+	width: 99%; height: 40px; font-size: 180%; font-weight: 600; z-index: 1}
+
+#menubar-sm {
+	position: relative; left:0;	border: 0px; padding: 0px; background-color: #000000; 
+	width: 100%; height: 30px; 
+	font-size: 100%; font-weight: 300; z-index: 1}
+
+#menu-opts {
+	position: absolute;	border: 0px; padding: 0px; right: 20px; top: 10px;
+	text-align: center; z-index: 4}
+
+#spacer { vertical-align:text-bottom; };
+
+#submission_form  form { position: absolute; width: 280px; height:700px; left: 0px; top: 50px;  }  
+
+#map_geocode { 
+	position:absolute; width: 280px; height: 480px; 
+	top: 20px; left:300px; border: 1px solid #216a94; }
+
+#debug_box {	
+	position: absolute; border: 3px solid #216a94; background-color: #AAAAAA; font-size: 10px;
+	left: 600px; top: 10px; padding: 10px;  }
+
+select { 
+	margin-left: 20px;
+  background-color: #EAF2FB;
+  border: 2px;
+}
+
+a         { text-decoration: none; color:#00B3FF; font-weight: regular; }
+a:hover   { text-decoration: none; color:#3366FF; }
+a:visited { text-decoration: none; color:#00B3FF; }
+
+/*-------------------------------------------------------------------------------->	*/
+/* Jason's Section 																																	*/
+/*-------------------------------------------------------------------------------->	*/
+#topper {
+	position: absolute; margin-top: 10px; left:10px; padding: 4px;  width: 30%; 
+	font-weight: 600; line-height: 1.3; color: #fff; background-color: #005EFF;  border: 0px solid #ffffff; 
+	z-index:10;	filter: alpha(opacity=80); opacity: 0.80;}
+
+#topper h2 {font-size: 120%; z-index: 10}
+#topper #topperDateRange {font-size: 90%; z-index: 10}
+
+#map_canvas { 
+	position:relative; top:0px; border: 0px solid black; z-index: 0}
+
+#options { 
+	position: absolute; border: 1px solid #888; width: 450px; height: 120px;  background: #ADD1FF; 
+	right: 5px; bottom: 10px; text-align:left; padding: 7px; color: white z-index: 5 }
+
+#options h3 {display: inline; font-weight: bold; font-size: 120%;} 
+#options hr { margin: 0px 0 5px 0; }
+
+#options ul li{ position:relative; height: 18px; padding:0; border: 0px solid green; }
+#options ul li label {font-weight: normal; top: 0; margin-left: 20px; border: 0px solid red; }
+#options input[type=checkbox] { position: absolute; top: 0; right: 0;  }
+
+.box {
+	border-radius: 4px; -moz-border-radius: 4px; }
+
+#optionsTitle {font-weight:700; margin: -1px 0 0 5px;}
+#closeOpts{ position: absolute; right:5px; top: 5px; height: 10px; width:10px; border: 1px solid #555; background:red;}
+#closeOpts:hover {background: green; cursor: pointer;}
+
+#bikeOpts, #pedOpts, #groupOpts { position: relative; float:left; width: 140px; ; margin-right: 20px; }
+#groupOpts { margin-right:0;}
+
+.bikeLegend {background: url(images/icons/bike-legend.png) no-repeat; }
+.pedLegend {background: url(images/icons/ped-legend.png) no-repeat; }
+.fa { background-position: 0 0; }
+.hrf { background-position: 0 -25px; } 
+.hrm { background-position: 0 -50px; }
+.in { background-position: 0 -75px; }
+.ni{ background-position: 0 -100px; }
+
+#hotspotItem {background: url(images/icons/hotspot.png) no-repeat; }
+#clusterItem {background: url(images/icons/cluster.png) no-repeat; }
+
+#totalMarkers{ font-weight: bold; }
+
+#slider { border: 0px solid red; position: absolute; color: #fff;
+					width: 440px; bottom: 3px; margin-left: 10px; padding: 7px;
+					background-color: #11375C }
+					
+#slider p { margin-bottom: 0px; }
+.ui-slider-range { border:1px solid black; }
+
+.check:hover   { cursor:pointer;}
+
+.red {color: red;}
+
+#toolTip { 
+	border:0px solid red; position: absolute; background: #000; color: #fff; 
+	font-size: 90%; text-align: left; padding: 5px 10px 10px 10px;
+}
+
+#toolTip img { border:0px solid red; display:block; top: 3px; position: absolute; }
+#toolTip div.toolTipInfo { border: 0px solid red; margin-left:25px; display: block;  position:relative; top: 3px;}
+.hidden { display: none; }
+
+.infoWindow { 
+  position:absolute; 
+  background:#000; 
+  color:#fff; 
+  padding: 5px; 
+  width:220px; 
+  height:0px; 
+  border:1px solid #000; 
+  z-index: 10000; 
+  text-align:left; 
+  cursor: text; 
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  font-size: 90%;
+  opacity: .3;
+
+}
+
+.infoWindow a { cursor: pointer}
+.infoWindow h4 {font-weight:bold; font-size: 100%;} 
+
+
+.hsMarker {
+  border: 0px solid red;
+  height: 40px;
+  width: 40px;
+  margin-left: -20px;
+  margin-top: -14px;
+  font-size: 20px;
+  font-weight: 800;
+  color: #000000;
+  line-height: 47px;
+  background: url(images/icons/hazard.png);
+  cursor: pointer;
+}
+
+.pow { border: 0px solid green; height: 20px; width: 20px; position: absolute; top: 103px; left: 45px;
+  background: url(images/icons/pow.png) no-repeat; }
+
+.oIcon { cursor: pointer; border:1px solid #fff; -moz-border-radius: 5px;  border-radius: 5px; margin: -9px 0 0 -9px; }
+.oIcon:hover {border: 1px solid green;}
+
+
+/* JQuery Slider */
+.ui-widget-header { background: #2D96CF; }
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default { background: #00B3FF; }
+.ui-corner-all { -moz-border-radius:4px 4px 4px 4px; }
