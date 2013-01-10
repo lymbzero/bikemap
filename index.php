@@ -1,3 +1,4 @@
+<? ini_set('display_errors',1);  ?>
 <? include_once('includes/header.php'); ?>
 
   <body onload="styleMapBasedOnMaxRes(); chooseWatermark(); ">
